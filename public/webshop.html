@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eindopdracht website-Walid Bouhdif</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="javascript/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/6474413175.js" crossorigin="anonymous"></script>
+</head>
+<body class="webshop-page">
+<nav class="navbar-shop">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="webshop.html">Webshop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><i class="fa-solid fa-bag-shopping" id="cart-icon"></i></li>
+    </ul>
+</nav>
+
+<div class="cart">
+    <div class="cart-content">
+    </div>
+    <div class="cart-total">
+        <div class="total-tile">Total</div>
+        <div class="total-price">€0</div>
+    </div>
+    <button type="button" class="buy-button">Buy Now</button>
+    <i class="fa-solid fa-square-xmark" id="close-cart"></i>
+</div>
+
+<main class="shopcontainer">
+    <section class="shopcontent">
+        <article class="product" data-console="PC">
+            <img src="images/sekiroPC.jpg" class="product-img" alt="Picture of the game Sekiro shadows die twice on the PC">
+            <h2 class="product-title">Sekiro PC</h2>
+            <span class="price">€59.99</span>
+            <i class="fa-solid fa-cart-plus cart-add"></i>
+        </article>
+        <article class="product" data-console="PS4">
+            <img src="images/sekiroPS4.jpg" class="product-img" alt="Picture of the game Sekiro shadows die twice on the Playstation 4">
+            <h2 class="product-title">Sekiro Playstation 4</h2>
+            <span class="price">€59.99</span>
+            <i class="fa-solid fa-cart-plus cart-add" ></i>
+        </article>
+        <article class="product" data-console="XBOX">
+            <img src="images/sekiroXBOX.jpg" class="product-img" alt="Picture of the game Sekiro shadows die twice on the Xbox one">
+            <h2 class="product-title">Sekiro Xbox One</h2>
+            <span class="price">€59.99</span>
+            <i class="fa-solid fa-cart-plus cart-add"></i>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <section class="social">
+        <a href="https://www.instagram.com/sekirothegame/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/sekirothegame" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCFlG1-ulYM9smpUYWlgOtBg" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.facebook.com/sekirothegame" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+    </section>
+    <p class="copyright">Walid Bouhdif @ 2022 Website and sources have been used for educational purposes only</p>
+</footer>
+</body>
+</html>
